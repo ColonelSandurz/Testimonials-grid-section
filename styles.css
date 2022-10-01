@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Koulen&family=Lato:wght@300&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto+Condensed&display=swap');
+
+:root {
+--Moderateviolet: hsl(263, 55%, 52%);
+--Very--dark--grayish--blue: hsl(217, 19%, 35%);
+--Very--dark--blackish--blue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+--Light--gray: hsl(0, 0%, 81%);
+--Light--grayish--blue: hsl(210, 46%, 95%);
+}
+
+html,body {
+    width:100%;
+    height: 100%;
+    background-color: var(--Light--grayish--blue);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:90px;
+    font-size: 13px;
+    margin:0;
+}
+
+main {
+   max-height:92%;
+   max-width: 78%;
+   background-color: var(--Light--grayish--blue);
+   display:grid;
+   grid-template-columns: 250px 280px 270px 260px;
+   grid-template-rows: 320px 320px;
+   grid-gap:35px;
+   margin-bottom:250px;
+   padding:10px;  
+}
+
+
+.testimonials {
+    border-radius: 10px;
+    box-shadow: 20px 30px 80px lightgray;
+    
+}
+
+/** Global Styles **/
+
+.white {
+     color:white;
+}
+
+.black {
+    color:black;
+}
+
+img {
+    border-radius: 30px;
+    border-image-width: 10px;
+    height: 30px;
+    float: left;
+    margin-right:20px;
+}
+
+.name {
+    display:inline;
+    color:var(--Light--gray);
+}
+
+.comment {
+    color:var(--Light--gray);
+    line-height: 1.4em; 
+    font-size: 1.1em;
+}
+
+.top {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    font-weight: 500;
+
+}
+
+.comment2 {
+    line-height: 1.4em;    
+    font-size: 1.1em;
+    color:black;
+    opacity: 0.6;
+}
+
+
+/** Testimonial Section **/
+
+.one {
+    background-color: var(--Moderateviolet);
+    grid-column: span 2;
+    color:white;
+    padding:30px;
+    font-family: Barlow Semi Condensed, sans-serif;
+    background-image: url(Images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 100px;
+}
+
+.one img {
+    border:2px solid #A479DF;
+}
+
+.two {
+    background-color: var(--Very--dark--grayish--blue);
+    color:white;
+    padding:30px;
+    font-family: Barlow Semi Condensed, sans-serif;
+}
+
+.three {
+    background-color: white;
+    grid-row: span 2;
+    padding:30px;
+    padding-bottom: 40px;
+    font-family: Barlow Semi Condensed, sans-serif;
+    height:85%;
+}
+
+
+
+.four {
+    background-color: white;
+    padding:30px;
+    font-family: Barlow Semi Condensed, sans-serif;
+    height:72%;
+}
+
+.five {
+    grid-column: span 2;
+    background-color: var(--Very--dark--blackish--blue);
+    color:white;
+    padding:30px;
+    font-family: Barlow Semi Condensed, sans-serif;
+    height: 72%;
+}
+
+.five img {
+    border:2px solid #A479DF;
+}
